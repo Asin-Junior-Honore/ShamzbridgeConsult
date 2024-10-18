@@ -18,7 +18,9 @@ const Herosection = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
-                autoplay={false}
+                autoplay={{
+                    delay: 6500,
+                }}
                 effect="fade"
                 navigation
                 pagination={{ clickable: true }}

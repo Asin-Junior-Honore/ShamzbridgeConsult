@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { MdClose, MdMenu } from "react-icons/md";
-// import { MdClose, MdMenu } from "react-icons/md";
 
 
 
@@ -28,7 +27,7 @@ const Navigation = () => {
     };
 
     return (
-        <div className="">
+        <div>
             <div
                 className={
                     navbar
