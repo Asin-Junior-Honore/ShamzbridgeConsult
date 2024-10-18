@@ -66,7 +66,7 @@ const Navigation = () => {
                         </ul>
 
                         <button className="font-semibold text-white border-none outline-none text-lg  bg-[#007BFF] py-3 px-8 rounded-md mt-3 lg:mt-0">
-                            Let's talk
+                            Let&apos;s talk
                         </button>
                     </div>
                 </div>
