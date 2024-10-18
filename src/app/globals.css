@@ -95,6 +95,7 @@ body {
 .herosection_one,
 .herosection_five,
 .herosection_about,
+.herosection_service,
 .services {
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,8 +115,10 @@ body {
   background-image: url("https://themestate.com/demo/resourcer/wp-content/uploads/2024/07/pexels-cottonbro-5989928-1920x1100.jpg");
 }
 
-.services,
-.about-sec {
+.herosection_service {
+  background-image: url("https://themestate.com/demo/resourcer/wp-content/uploads/2024/07/pexels-cottonbro-5989928-1920x1100.jpg");
+}
+.services {
   background-image: linear-gradient(180deg, #fff 7%, #eee 0%);
 }
 
