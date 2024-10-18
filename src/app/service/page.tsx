@@ -1,3 +1,4 @@
+import ActionButtons from "@/components/ActionButtons"
 import Services from "@/components/Services"
 
 
@@ -14,10 +15,7 @@ function page() {
                         From talent acquisition to professional development, we help build winning teams <br />
                         and drive business success.
                     </p>
-                    <div className="flex lg:flex-row flex-col">
-                        <button className="rounded-md font-medium uppercase  text-white bg-[#007BFF] py-[13px] px-[20px] tracking-widest">learn more</button>
-                        <button className="rounded-md font-medium uppercase  text-white bg-[#6C757D] py-[13px] px-[20px] tracking-widest lg:ml-8 mt-5 lg:mt-0">how we work</button>
-                    </div>
+                    <ActionButtons />
                 </div>
             </div>
             <Services />

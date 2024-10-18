@@ -10,6 +10,7 @@ import {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import { EffectFade } from "swiper/modules";
+import ActionButtons from "./ActionButtons";
 const Herosection = () => {
     return (
         <section className="hero-parent">
@@ -37,10 +38,7 @@ const Herosection = () => {
                                 Our team of professionals is committed to providing exceptional and tailored service. <br />
                                 Get to know the people behind our success.
                             </p>
-                            <div className="flex lg:flex-row flex-col">
-                                <button className="rounded-md font-medium uppercase  text-white bg-[#007BFF] py-[13px] px-[20px] tracking-widest">learn more</button>
-                                <button className="rounded-md font-medium uppercase  text-white bg-[#6C757D] py-[13px] px-[20px] tracking-widest lg:ml-8 mt-5 lg:mt-0">how we work</button>
-                            </div>
+                            <ActionButtons />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -55,10 +53,7 @@ const Herosection = () => {
                                 needs. Connecting exceptional candidates with outstanding companies to create <br />
                                 winning teams.
                             </p>
-                            <div className="flex lg:flex-row flex-col">
-                                <button className="rounded-md font-medium uppercase  text-white bg-[#007BFF] py-[13px] px-[20px] tracking-widest">learn more</button>
-                                <button className="rounded-md font-medium uppercase  text-white bg-[#6C757D] py-[13px] px-[20px] tracking-widest lg:ml-8 mt-5 lg:mt-0">how we work</button>
-                            </div>
+                            <ActionButtons />
                         </div>
                     </div>
                 </SwiperSlide>
