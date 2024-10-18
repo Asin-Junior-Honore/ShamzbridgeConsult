@@ -43,7 +43,7 @@ const Navigation = () => {
                         </label>
                     </div>
 
-                    <div className={menuOpen ? "navs flex justify-start items-start flex-col py-3" : "navs flex-row  lg:flex hidden items-center justify-between flex-grow-[0.5]"}>
+                    <div className={menuOpen ? "navs flex justify-start items-start flex-col p-3 rounded-md bg-[#6C757D]" : "navs flex-row  lg:flex hidden items-center justify-between flex-grow-[0.5]"}>
                         <ul className="flex lg:flex-row flex-col m-0 p-0 justify-center lg:space-y-0 space-y-3 z-10">
                             <li className="li">
                                 <Link className="links" href="/" >
