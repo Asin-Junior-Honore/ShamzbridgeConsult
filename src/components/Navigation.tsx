@@ -37,28 +37,30 @@ const Navigation = () => {
             >
                 <div className="navbar flex justify-between lg:flex-row flex-col lg:items-center w-[100%]">
                     <div className="logo desktop lg:inline-block flex items-center justify-between">
-                        <h1 className="lg:text-3xl text-4xl font-bold text-[#fff]">LOGO</h1>
+                        <div className="w-[250px]">
+                            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1724055539467/36a4b661-bd4f-488c-88d9-7109189330e5.png" className="h-[100%] w-[100%]" alt="" />
+                        </div>
                         <label onClick={toggleMenu} className="text-[#fff] lg:hidden">
                             {menuOpen ? <MdClose size={45} /> : <MdMenu size={45} />}
                         </label>
                     </div>
 
-                    <div className={menuOpen ? "navs flex justify-start items-start flex-col p-3 rounded-md bg-[#6C757D]" : "navs flex-row  lg:flex hidden items-center justify-between flex-grow-[0.5]"}>
+                    <div className={menuOpen ? "navs flex justify-start lg:justify-between lg:items-center items-start lg:flex-grow-[0.5] lg:flex-row flex-col p-3 rounded-md lg:bg-transparent bg-[#6C757D]" : "navs flex-row  lg:flex hidden items-center justify-between lg:flex-grow-[0.5]"}>
                         <ul className="flex lg:flex-row flex-col m-0 p-0 justify-center lg:space-y-0 space-y-3 z-10">
                             <li className="li">
-                                <Link className="links" href="/" >
+                                <Link className="links" href="/" onClick={toggleMenu}>
                                     Home
                                 </Link>
                             </li>
 
                             <li className="li">
-                                <Link className="links" href="/about" >
+                                <Link className="links" href="/about" onClick={toggleMenu}>
                                     About Us
                                 </Link>
                             </li>
 
                             <li className="li">
-                                <Link className="links" href="/service" >
+                                <Link className="links" href="/service" onClick={toggleMenu}>
                                     Services
                                 </Link>
                             </li>

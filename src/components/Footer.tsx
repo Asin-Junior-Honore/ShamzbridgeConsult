@@ -13,7 +13,9 @@ export default function Footer() {
             </section>
             <section className='bottomfooter lg:px-[8rem] p-[2rem] lg:flex-row flex-col-reverse py-[3rem] flex justify-between'>
                 <div className='text-[#fff] lg:mt-0 mt-10'>
-                    <h1 className="text-3xl font-bold">LOGO</h1>
+                    <div className="w-[250px]">
+                        <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1724055539467/36a4b661-bd4f-488c-88d9-7109189330e5.png" className="h-[100%] w-[100%]" alt="" />
+                    </div>
                     <p className='my-7'>
                         With a commitment to excellence and a <br /> proven track record of success, we <br /> empower businesses to thrive by <br /> connecting them with exceptional <br /> talent and optimizing their human <br /> resources.
                     </p>
