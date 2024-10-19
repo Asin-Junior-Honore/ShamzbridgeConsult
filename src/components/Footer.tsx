@@ -26,12 +26,12 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.twitter.com" target="_blank">
+                            <a href="https://x.com/shamzbridge" target="_blank">
                                 <FaTwitter size={26} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com" target="_blank">
+                            <a href="https://www.instagram.com/shamzbridge/" target="_blank">
                                 <FaInstagram size={26} />
                             </a>
                         </li>
