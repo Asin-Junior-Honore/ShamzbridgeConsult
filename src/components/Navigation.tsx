@@ -36,7 +36,7 @@ const Navigation = () => {
                 }
             >
                 <div className="navbar flex justify-between lg:flex-row flex-col lg:items-center w-[100%]">
-                    <div className="logo desktop lg:inline-block flex items-center justify-between">
+                    <div className="logo lg:inline-block flex items-center justify-between">
                         <div className="w-[250px]">
                             <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1724055539467/36a4b661-bd4f-488c-88d9-7109189330e5.png" className="h-[100%] w-[100%]" alt="" />
                         </div>
