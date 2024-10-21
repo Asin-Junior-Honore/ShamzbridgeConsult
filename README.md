@@ -39,8 +39,8 @@ The landing page serves as a professional introduction to our human resource ser
 To run this project locally, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/hr-landing-page.git
-cd hr-landing-page
+git clone https://github.com/your-username/ShamzbridgeConsult.git
+cd ShamzbridgeConsult
 npm install
 ```
 
